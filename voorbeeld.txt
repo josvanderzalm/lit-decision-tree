@@ -1,0 +1,166 @@
+
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Exploratief
+B: Is het doel om de data alleen doorzoekbaar te maken? Of wil je de data ook ondersteunen met visualisaties?
+Doorzoekbaar
+1: Een data repository is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Exploratief
+B: Is het doel om de data alleen doorzoekbaar te maken? Of wil je de data ook ondersteunen met visualisaties?
+Visueel
+2: en dashboard is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Los product
+D: Is de visualisatie of de tekst leidend?
+Visualisatie
+3: Een infographic is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Los product
+D: Is de visualisatie of de tekst leidend?
+Tekst
+4: Een beeldverhaal is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Ondersteunend
+E: Heeft de onderliggende data een geografisch (locatie-gebonden) element?
+Ja
+5: Een enkelvoudige kaart is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Breder publiek
+D: Is de visualisatie of de tekst leidend?
+Visualisatie
+3: Een infographic is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Breder publiek
+D: Is de visualisatie of de tekst leidend?
+Tekst
+4: Een beeldverhaal is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Los product
+D: Is de visualisatie of de tekst leidend?
+Weet niet
+F: Heb je één duidelijke boodschap? Of vertel je een verhaal?
+Eén boodschap
+3: Een infographic is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Los product
+D: Is de visualisatie of de tekst leidend?
+Weet niet
+F: Heb je één duidelijke boodschap? Of vertel je een verhaal?
+Verhaal
+4: Een beeldverhaal is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Ondersteunend
+E: Heeft de onderliggende data een geografisch (locatie-gebonden) element?
+Nee
+G: Heb je veel (≥ 3) of weinig (< 3) datapunten?
+Veel
+6: Een enkelvoudige grafiek is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Descriptief
+C: Wil je een op zichzelf staand product? Of een visualisatie die een bestaande tekst (rapport, webtekst) ondersteund?
+Ondersteunend
+E: Heeft de onderliggende data een geografisch (locatie-gebonden) element?
+Nee
+G: Heb je veel (≥ 3) of weinig (< 3) datapunten?
+Weinig
+7: Een enkelvoudige tabel is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Breder publiek
+D: Is de visualisatie of de tekst leidend?
+Weet niet
+F: Heb je één duidelijke boodschap? Of vertel je een verhaal?
+Eén boodschap
+3: Een infographic is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+D: Is de visualisatie of de tekst leidend?
+Weet niet
+F: Heb je één duidelijke boodschap? Of vertel je een verhaal?
+Verhaal
+4: Een beeldverhaal is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Experts
+H: Wil je meerdere soorten gegevens (geolocatie, tijd, frequentie, dichtheid) laten samenkomen en verbanden kunnen vinden?
+Ja
+I: Is het doel om de data alleen doorzoekbaar te maken? Of wil je dit ook ondersteunen met visualisaties?
+Doorzoekbaar
+1: Een data repository is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Experts
+H: Wil je meerdere soorten gegevens (geolocatie, tijd, frequentie, dichtheid) laten samenkomen en verbanden kunnen vinden?
+Ja
+I: Is het doel om de data alleen doorzoekbaar te maken? Of wil je dit ook ondersteunen met visualisaties?
+Visueel
+2: en dashboard is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Experts
+H: Wil je meerdere soorten gegevens (geolocatie, tijd, frequentie, dichtheid) laten samenkomen en verbanden kunnen vinden?
+Nee
+E: Heeft de onderliggende data een geografisch (locatie-gebonden) element?
+Ja
+5: Een enkelvoudige kaart is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Experts
+H: Wil je meerdere soorten gegevens (geolocatie, tijd, frequentie, dichtheid) laten samenkomen en verbanden kunnen vinden?
+Nee
+E: Heeft de onderliggende data een geografisch (locatie-gebonden) element?
+Nee
+G: Heb je veel (≥ 3) of weinig (< 3) datapunten?
+Veel
+6: Een enkelvoudige grafiek is waarschijnlijk het best passende product bij uw wensen!
+
+A: Wil je de visualisatie gebruiken om een boodschap over te brengen (descriptief)? Of wil je op zoek naar trends, verbanden of andere interessante inzichten (exploratief)?
+Weet niet
+E: Wie is je doelgroep?
+Experts
+H: Wil je meerdere soorten gegevens (geolocatie, tijd, frequentie, dichtheid) laten samenkomen en verbanden kunnen vinden?
+Nee
+E: Heeft de onderliggende data een geografisch (locatie-gebonden) element?
+Nee
+G: Heb je veel (≥ 3) of weinig (< 3) datapunten?
+Weinig
+7: Een enkelvoudige tabel is waarschijnlijk het best passende product bij uw wensen!

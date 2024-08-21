@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decision Tree</title>
+    <script type="module" src="/src/decision-tree.js"></script>
+  </head>
+  <body>
+    <decision-tree></decision-tree>
+    <script>
+      const decisionTreeConfig = {
+        root: {
+          question: "Wat voor type vakantie zoek je?",
+          answers: [
+            { label: "Strandvakantie", key: "beach", next: "budget_question" },
+            { label: "Stedentrip", key: "city", next: "budget_question_city" },
+            {
+              label: "Avontuurlijke reis",
+              key: "adventure",
+              next: "adventure_type",
+            },
+          ],
+        },
+        budget_question: {
+          question: "Wat is je budget?",
+          answers: [
+            { label: "Laag", key: "low", next: "beach_low_budget" },
+            { label: "Gemiddeld", key: "medium", next: "season_question" },
+            { label: "Hoog", key: "high", next: "luxury_options" },
+          ],
+        },
+        budget_question_city: {
+          question: "Wat is je budget voor de stedentrip?",
+          answers: [
+            { label: "Laag", key: "low", next: "city_low_budget" },
+            { label: "Gemiddeld", key: "medium", next: "season_question" },
+            { label: "Hoog", key: "high", next: "luxury_options_city" },
+          ],
+        },
+        season_question: {
+          question: "In welk seizoen wil je reizen?",
+          answers: [
+            {
+              label: "Zomer",
+              key: "summer",
+              next: [
+                {
+                  path: ["root.beach", "budget_question.medium"],
+                  next: "beach_summer",
+                },
+                {
+                  path: ["root.city", "budget_question_city.medium"],
+                  next: "city_summer_transport",
+                },
+              ],
+            },
+            {
+              label: "Winter",
+              key: "winter",
+              next: [
+                {
+                  path: ["root.beach", "budget_question.medium"],
+                  next: "beach_winter",
+                },
+                {
+                  path: ["root.city", "budget_question_city.medium"],
+                  next: "city_winter_transport",
+                },
+              ],
+            },
+          ],
+        },
+        adventure_type: {
+          question: "Wat voor soort avontuur zoek je?",
+          answers: [
+            {
+              label: "Bergbeklimmen",
+              key: "mountain",
+              next: "mountain_transport",
+            },
+            {
+              label: "Safari",
+              key: "safari",
+              next: "safari_options_transport",
+            },
+            {
+              label: "Backpacking",
+              key: "backpacking",
+              next: "backpacking_transport",
+            },
+          ],
+        },
+        transport_question: {
+          question: "Hoe wil je reizen?",
+          answers: [
+            { label: "Auto", key: "car", next: "conclusion_car" },
+            {
+              label: "Openbaar vervoer",
+              key: "public",
+              next: "conclusion_public",
+            },
+            { label: "Vliegtuig", key: "plane", next: "conclusion_plane" },
+          ],
+        },
+        luxury_options: {
+          question: "Hoeveel luxe wil je?",
+          answers: [
+            {
+              label: "5-sterren resort",
+              key: "five_star",
+              next: "luxury_beach",
+            },
+            { label: "Privé villa", key: "villa", next: "luxury_villa" },
+          ],
+        },
+        luxury_options_city: {
+          question: "Hoeveel luxe wil je?",
+          answers: [
+            { label: "4-sterren hotel", key: "four_star", next: "luxury_city" },
+            {
+              label: "Boutique hotel",
+              key: "boutique",
+              next: "luxury_boutique",
+            },
+          ],
+        },
+        beach_low_budget: {
+          conclusion:
+            "Voor een strandvakantie met een laag budget raden we aan om naar Spanje te gaan!",
+        },
+        beach_summer: {
+          conclusion:
+            "Voor een strandvakantie in de zomer raden we Griekenland aan.",
+        },
+        beach_winter: {
+          conclusion:
+            "Voor een strandvakantie in de winter raden we de Malediven aan.",
+        },
+        city_low_budget: {
+          conclusion:
+            "Voor een stedentrip met een laag budget raden we aan om naar Boedapest te gaan.",
+        },
+        city_summer_transport: {
+          conclusion: "Een stedentrip in de zomer? Parijs is perfect voor jou!",
+        },
+        city_winter_transport: {
+          conclusion:
+            "Voor een winterse stedentrip raden we je aan om naar Wenen te gaan.",
+        },
+        mountain_transport: {
+          conclusion: "Ga naar de Alpen voor een geweldig bergbeklimavontuur!",
+        },
+        safari_options_transport: {
+          conclusion: "Voor een safari, bezoek de Serengeti in Tanzania.",
+        },
+        backpacking_transport: {
+          conclusion:
+            "Backpacken door Zuidoost-Azië is een geweldige ervaring!",
+        },
+        luxury_beach: {
+          conclusion:
+            "Voor ultieme luxe op het strand, probeer de Bora Bora resorts.",
+        },
+        luxury_villa: {
+          conclusion: "Een privé villa op de Seychellen is wat je zoekt.",
+        },
+        luxury_city: {
+          conclusion:
+            "Voor luxe in de stad, verblijf in een 4-sterren hotel in Londen.",
+        },
+        luxury_boutique: {
+          conclusion: "Een boutique hotel in Amsterdam is een geweldige keuze.",
+        },
+        conclusion_car: {
+          conclusion:
+            "Met de auto kom je snel en comfortabel op je bestemming.",
+        },
+        conclusion_public: {
+          conclusion: "Openbaar vervoer is een milieuvriendelijke keuze.",
+        },
+        conclusion_plane: {
+          conclusion: "Vliegen is de snelste optie voor lange afstanden.",
+        },
+      };
+
+      document.querySelector("decision-tree").config = decisionTreeConfig;
+    </script>
+  </body>
+</html>
